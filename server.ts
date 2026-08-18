@@ -2,7 +2,7 @@ import express from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
 import dotenv from "dotenv";
-   import { generateAdCore, refineAdCore } from "./src/lib/geminiAdCore";
+  import { generateAdCore, refineAdCore } from "./lib/geminiAdCore";
 
 dotenv.config();
 
