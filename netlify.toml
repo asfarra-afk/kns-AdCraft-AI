@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+# Proxy /api/generate-ad to Netlify Function
+[[redirects]]
+  from = "/api/generate-ad"
+  to = "/.netlify/functions/generate-ad"
+  status = 200
+
+# Proxy /api/refine-ad to Netlify Function
+[[redirects]]
+  from = "/api/refine-ad"
+  to = "/.netlify/functions/refine-ad"
+  status = 200
+
+# Single Page App routing fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

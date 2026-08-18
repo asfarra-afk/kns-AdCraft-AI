@@ -1,0 +1,6 @@
+{
+  "name": "AdCraft AI - Direct Response Ad Studio",
+  "description": "Direct Response Ad Copywriting Studio generating 4 distinct modules: Unique Ad Concept (Idea, Avatar, Pains), Unique Ad Script (Hook, Pinpoint, Solution), Unique Ad Caption (Title, Pinpoint, Brandwise Solution), and Unique Ad Copy (Image Content, Image Prompt).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
